@@ -1,0 +1,14 @@
+.login-form input[type="email"],
+.login-form input[type="password"] {
+  border: none;
+}
+
+.login-form label {
+  font-size: 14px;
+}
+
+#exampleModal .modal-footer a {
+  font-size: 14px !important;
+  color: rgb(45, 206, 255);
+  text-decoration: none;
+}

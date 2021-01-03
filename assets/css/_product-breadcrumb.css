@@ -1,0 +1,48 @@
+.custom-breadcrumb {
+  margin: 0;
+  background-color: transparent;
+  font-size: 12px;
+}
+.product-page-rate {
+  color: gold;
+  font-size: 14px;
+}
+.product-page-rate span {
+  color: rgb(44, 44, 44);
+  font-size: 12px;
+}
+.product-page-price {
+  font-size: 14px;
+}
+.product-page-price span {
+  color: rgb(255, 58, 58);
+  font-size: 14px;
+}
+h1.product-page-title {
+  font-size: 22px;
+}
+
+.describe {
+  font-size: 14px;
+  line-height: 36px;
+}
+.product-page-title .fa-share-alt {
+  color: rgb(107, 107, 107);
+}
+.product-page-title .fa-heart {
+  color: red;
+}
+.product-page-title .fa-bell {
+  color: goldenrod;
+}
+.product-benefits {
+  font-size: 16px;
+}
+.brand-cat {
+  font-size: 14px;
+}
+.bullets li a i {
+  font-size: 10px !important;
+  margin-left: 13px !important;
+  color: rgb(0, 167, 0);
+}

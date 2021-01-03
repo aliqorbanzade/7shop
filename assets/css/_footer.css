@@ -1,0 +1,55 @@
+.news-letter .row {
+  margin-top: -77px;
+}
+.news-letter-s1 h6 {
+  font-size: 18px;
+}
+.news-letter-s1 p {
+  font-size: 16px;
+}
+.news-letter-s2 p {
+  font-size: 16px;
+  line-height: 30px;
+}
+.input-news-letter {
+  border-radius: 0 !important;
+}
+.news-letter-s3 button {
+  font-size: 14px;
+}
+
+.main-section-footer h5 {
+  font-size: 15px;
+  border-bottom: 3px solid #a09f9f;
+  padding-bottom: 10px;
+  display: inline-flex;
+}
+.footer-nav-custom li a {
+  font-size: 14px !important;
+  color: #4e4d4d !important;
+  transition: 0.5s ease;
+}
+.footer-nav-custom li a:hover {
+  font-size: 14px !important;
+  color: #a09f9f !important;
+}
+
+.support-rules {
+  font-size: 30px;
+  color: rgb(71, 218, 255);
+}
+.tel-support p,
+.tel-support a {
+  font-size: 14px;
+  color: #4e4d4d;
+}
+.social-icon p {
+  font-size: 15px;
+}
+.social-icon ul li a {
+  color: #4e4d4d;
+  transition: 0.5s ease;
+}
+.social-icon ul li a:hover {
+  color: #29b6b6;
+}

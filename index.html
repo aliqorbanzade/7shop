@@ -1,0 +1,1685 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+		integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+	<link rel="stylesheet" href="./assets/css/bootstrap-rtl.css">
+	<!-- rtl bootstrap -->
+	<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-rtl/3.4.0/css/bootstrap-rtl.css"
+		integrity="sha512-xjgS6FfopzlmfecrVEJVL+rLIlaisOOu9Vj+5xkqZprQh6NX7rUXm1EQsnQpHnzZk7Vvjgz70/DQJdNax/umew=="
+		crossorigin="anonymous" /> -->
+	<!-- end -->
+
+	<link rel="stylesheet" href="./assets/css/style.css" />
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+		integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+	<!--owl slider  -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css"
+		integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A=="
+		crossorigin="anonymous" />
+	<link rel="stylesheet" href="OwlCarousel2-2.3.4/dist/assets/owl.theme.default.css" />
+	<title>فروشگاه اینترنتی</title>
+</head>
+
+<body class="rtl bg-light" style="direction: rtl">
+	<!-- strat top nav -->
+	<div class="container-fluid bg-top-nav">
+		<div class="row">
+			<div class="container">
+				<div class="row d-flex justify-content-center align-items-center">
+					<div class="col-sm-12 col-md-6 d-none d-md-block">
+						<p style="position: absolute;">ارسال رایگان - ضمانت بازگشت وجه 30 روزه</p>
+					</div>
+					<div class="col-sm-12 col-md-6 d-flex justify-content-center align-items-center">
+						<nav class="nav custom-top-nav">
+							<a href="#" class="nav-link text-white border-left">آدرس فروشگاه</a>
+							<a href="#" class="nav-link text-white border-left">پیگیری سفارشات</a>
+							<a href="#" class="nav-link text-white border-left">تلفن : 09120001234
+							</a>
+							<a href="#" class="nav-link text-white border-left d-none d-md-block">ضمانت
+								کیفیت محصولات</a>
+						</nav>
+					</div>
+				</div>
+			</div>
+
+			<div class="container my-4">
+				<div class="row">
+					<!-- <div class="col-sm-12 col-md-2">لوگو</div> -->
+					<div class="col-sm-12 col-md-10">
+						<div class="input-group ">
+							<div class="input-group-prepend ">
+								<button class="btn btn-secondary dropdown-toggle custom-btn-font-size rounded-0 "
+									type="button" data-toggle="dropdown" id="dropdownMenuButton" aria-expanded="false">
+									همه دسته بندی ها
+								</button>
+								<div class="dropdown-menu " aria-labelledby="dropdownMenuButton">
+									<a class="dropdown-item " href="#">موبایل </a>
+									<a class="dropdown-item " href="#">قطعات کامپیوتر</a>
+									<a class="dropdown-item " href="#">پوشاک</a>
+									<a class="dropdown-item " href="#">لوازم خانگی</a>
+								</div>
+							</div>
+							<input type="text" class="form-control input-top-nav-search"
+								aria-label="Text input with dropdown button"
+								placeholder="جستجو در بین بیش از 25000 کالا" />
+							<div class="input-group-append">
+								<button class="btn btn-success rounded-0 custom-btn-font-size" type="button">
+									بگرد
+								</button>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-12 col-md-2 d-flex justify-content-center align-items-center mt-csm-3">
+						<div class="dropdown">
+							<a class="btn btn-link text-white text-decoration-none dropdown-toggle border-0 shop-card "
+								type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
+								aria-expanded="false">
+								<span class="ml-2">سبد خرید</span><i class="fas fa-shopping-cart"></i>
+							</a>
+
+							<div class="dropdown-menu basket p-0">
+								<a class="dropdown-item p-1 d-flex justify-content-around" href="#"><img
+										class="img-thumbnail" src="./assets/img/chair.jpg" alt="">
+									<ul>
+										<li>گوشی موبایل اپل</li>
+										<li>iphone 12</li>
+										<li>120000</li>
+									</ul>
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+										<span aria-hidden="true">&times;</span>
+									</button>
+								</a>
+								<a class="dropdown-item p-1 d-flex justify-content-around" href="#">
+									<img class="img-thumbnail" src="./assets/img/iphone.jpg" alt="">
+									<ul>
+										<li>گوشی موبایل اپل</li>
+										<li>iphone 12</li>
+										<li>120000</li>
+									</ul>
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+										<span aria-hidden="true">&times;</span>
+									</button>
+								</a>
+								<a class="dropdown-item p-1 d-flex justify-content-around" href="#">
+									<img class="img-thumbnail" src="./assets/img/iphone.jpg" alt="">
+									<ul>
+										<li>گوشی موبایل اپل</li>
+										<li>iphone 12</li>
+										<li>120000</li>
+									</ul>
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+										<span aria-hidden="true">&times;</span>
+									</button>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<nav class="w-100 position-relative">
+				<div class="container ">
+					<div class="row">
+						<nav class="navbar navbar-expand-xl navbar-dark custom-navbar w-100">
+							<a class="navbar-brand mr-2" href="#">فروشگاه</a>
+							<button class="navbar-toggler" type="button" data-toggle="collapse"
+								data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+								aria-expanded="false" aria-label="Toggle navigation">
+								<span class="navbar-toggler-icon"></span>
+							</button>
+
+							<div class="collapse navbar-collapse" id="navbarSupportedContent">
+								<ul class="navbar-nav custom-navbar-nav ">
+									<li class="nav-item active">
+										<a class="nav-link " href="#">خانه </a>
+									</li>
+
+									<li class="nav-item dropdown">
+										<a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown"
+											role="button" data-toggle="dropdown">
+											لوازم خانگی
+										</a>
+										<div class="dropdown-menu w-100 dropdown-image border-0 shadow"
+											aria-labelledby="navbarDropdown">
+											<img src="./assets/img/home.png" class="d-none d-xl-block" alt="">
+											<div class="container">
+												<div class="row w-100">
+													<div class="col-sm-12 col-md-12 col-lg-3">
+														<ul class="nav flex-column pr-3">
+															<li class="nav-item">
+																<a class="nav-link active" href="#"> <i
+																		class="fas fa-angle-left"></i>ماشین
+																	لباسشویی</a>
+															</li>
+															<li class="nav-item">
+																<a class="nav-link" href="#"><i
+																		class="fas fa-angle-left"></i>یخچال</a>
+															</li>
+															<li class="nav-item">
+																<a class="nav-link" href="#"><i
+																		class="fas fa-angle-left"></i>اتو</a>
+															</li>
+															<li class="nav-item">
+																<a class="nav-link" href="#"><i
+																		class="fas fa-angle-left"></i>تلویزیون</a>
+															</li>
+															<li class="nav-item">
+																<a class="nav-link" href="#"><i
+																		class="fas fa-angle-left"></i>تلویزیون</a>
+															</li>
+															<li class="nav-item">
+																<a class="nav-link" href="#"><i
+																		class="fas fa-angle-left"></i>تلویزیون</a>
+															</li>
+															<li class="nav-item">
+																<a class="nav-link" href="#"><i
+																		class="fas fa-angle-left"></i>تلویزیون</a>
+															</li>
+														</ul>
+													</div>
+													<div class="col-sm-12 col-md-12 col-lg-3">
+														<ul class="nav flex-column pr-3">
+															<li class="nav-item">
+																<a class="nav-link active" href="#"> <i
+																		class="fas fa-angle-left"></i>ماشین
+																	لباسشویی</a>
+															</li>
+															<li class="nav-item">
+																<a class="nav-link" href="#"><i
+																		class="fas fa-angle-left"></i>یخچال</a>
+															</li>
+															<li class="nav-item">
+																<a class="nav-link" href="#"><i
+																		class="fas fa-angle-left"></i>اتو</a>
+															</li>
+															<li class="nav-item">
+																<a class="nav-link" href="#"><i
+																		class="fas fa-angle-left"></i>تلویزیون</a>
+															</li>
+															<li class="nav-item">
+																<a class="nav-link" href="#"><i
+																		class="fas fa-angle-left"></i>تلویزیون</a>
+															</li>
+															<li class="nav-item">
+																<a class="nav-link" href="#"><i
+																		class="fas fa-angle-left"></i>تلویزیون</a>
+															</li>
+															<li class="nav-item">
+																<a class="nav-link" href="#"><i
+																		class="fas fa-angle-left"></i>تلویزیون</a>
+															</li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+									</li>
+
+									<li class="nav-item dropdown">
+										<a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown"
+											role="button" data-toggle="dropdown">
+											سوپرمارکت
+										</a>
+										<div class="dropdown-menu w-100" aria-labelledby="navbarDropdown">
+											<a class="dropdown-item" href="#">Action</a>
+											<a class="dropdown-item" href="#">Another action</a>
+
+											<a class="dropdown-item" href="#">Something else
+												here</a>
+										</div>
+									</li>
+
+									<li class="nav-item dropdown">
+										<a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown"
+											role="button" data-toggle="dropdown">
+											مد و پوشاک
+										</a>
+										<div class="dropdown-menu w-100" aria-labelledby="navbarDropdown">
+											<a class="dropdown-item" href="#">Action</a>
+											<a class="dropdown-item" href="#">Another action</a>
+											<div class="dropdown-divider"></div>
+											<a class="dropdown-item" href="#">Something else
+												here</a>
+										</div>
+									</li>
+
+									<li class="nav-item dropdown">
+										<a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown"
+											role="button" data-toggle="dropdown">
+											کالای دیجیتال
+										</a>
+										<div class="dropdown-menu w-100" aria-labelledby="navbarDropdown">
+											<a class="dropdown-item" href="#">Action</a>
+											<a class="dropdown-item" href="#">Another action</a>
+											<div class="dropdown-divider"></div>
+											<a class="dropdown-item" href="#">Something else
+												here</a>
+										</div>
+									</li>
+
+									<li class="nav-item dropdown">
+										<a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown"
+											role="button" data-toggle="dropdown">
+											لوازم خودرو
+										</a>
+										<div class="dropdown-menu w-100" aria-labelledby="navbarDropdown">
+											<a class="dropdown-item" href="#">Action</a>
+											<a class="dropdown-item" href="#">Another action</a>
+											<div class="dropdown-divider"></div>
+											<a class="dropdown-item" href="#">Something else
+												here</a>
+										</div>
+									</li>
+
+									<li class="nav-item">
+										<a class="nav-link text-white" href="#">تماس باما</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link text-white" href="#">درباره ما</a>
+									</li>
+								</ul>
+
+								<a href="" class="text-warning text-decoration-none " data-toggle="modal"
+									data-target="#exampleModal">
+									<i class="far fa-user"><span>ورود</span></i>
+								</a>
+
+								<div class="modal fade" id="exampleModal" tabindex="-1"
+									aria-labelledby="exampleModalLabel" aria-hidden="true">
+									<div class="modal-dialog modal-dialog-centered">
+										<div class="modal-content">
+											<div class="modal-header">
+												<h5 class="modal-title w-100 text-center" style="color: black;"
+													id="exampleModalLabel">ورود به
+													سایت</h5>
+
+											</div>
+											<div class="modal-body">
+												<form style="color: black !important;" class="login-form">
+													<div class="form-group ">
+														<label for="exampleInputEmail1">ایمیل</label>
+														<input type="email" class="form-control form-control-sm"
+															id="exampleInputEmail1" aria-describedby="emailHelp">
+
+													</div>
+													<div class="form-group">
+														<label for="exampleInputPassword1">رمز عبور</label>
+														<input type="password" class="form-control form-control-sm"
+															id="exampleInputPassword1">
+													</div>
+													<div class="form-group form-check">
+														<input type="checkbox" class="form-check-input ml-0"
+															id="exampleCheck1">
+														<label class="form-check-label " for="exampleCheck1">مرا بخاطر
+															بسپار</label>
+													</div>
+													<button type="submit"
+														class="btn btn-success btn-sm btn-block mt-3">ورود</button>
+												</form>
+											</div>
+											<div class="modal-footer d-flex justify-content-around">
+												<a href="">فراموشی رمز عبور</a>
+												<a href="">عضویت</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</nav>
+					</div>
+				</div>
+			</nav>
+		</div>
+	</div>
+	<!-- end top nav -->
+
+	<div class="container-fluid bg-white pb-5">
+		<div class="row">
+			<!-- start product slider  -->
+			<div class="container mt-5">
+				<div class="row">
+					<div class="col-sm-12 col-lg-6 custom-col-lg-6">
+						<div id="carouselExampleCaptions" class="carousel slide " data-ride="carousel">
+							<ol class="carousel-indicators">
+								<li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+								<li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+								<li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+							</ol>
+							<div class="carousel-inner">
+								<div class="carousel-item active">
+									<img src="assets/img/b1.jpg" class="d-block w-100" alt="...">
+									<div class="carousel-caption d-none d-md-block">
+										<h6>محصولات غذایی</h6>
+										<p class="bg-warning p-1 shadow">بهترین کیفیت را در مجموعه ی
+											ما تجربه
+											خواهید کرد</p>
+									</div>
+								</div>
+								<div class="carousel-item">
+									<img src="assets/img/b8.jpg" class="d-block w-100" alt="...">
+									<div class="carousel-caption d-none d-md-block">
+										<h6>محصولات غذایی</h6>
+										<p class="bg-warning p-1 shadow">بهترین کیفیت را در مجموعه ی
+											ما تجربه
+											خواهید کرد</p>
+									</div>
+								</div>
+								<div class="carousel-item">
+									<img src="assets/img/b9.jpg" class="d-block w-100" alt="...">
+									<div class="carousel-caption d-none d-md-block">
+										<h6>محصولات غذایی</h6>
+										<p class="bg-danger p-1 shadow">بهترین کیفیت را در مجموعه ی
+											ما تجربه
+											خواهید کرد</p>
+									</div>
+								</div>
+							</div>
+							<a class="carousel-control-prev" href="#carouselExampleCaptions" role="button"
+								data-slide="prev">
+								<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+								<span class="sr-only">Previous</span>
+							</a>
+							<a class="carousel-control-next" href="#carouselExampleCaptions" role="button"
+								data-slide="next">
+								<span class="carousel-control-next-icon" aria-hidden="true"></span>
+								<span class="sr-only">Next</span>
+							</a>
+						</div>
+					</div>
+					<div class="col-sm-12 col-lg-3 custom-col-lg-3 mt-clg-3">
+						<a href="#"><img src="assets/img/b4.jpg" class="img-fluid" alt=""></a>
+					</div>
+					<div
+						class="col-sm-12 col-lg-3 custom-col-lg-3 mt-clg-3 d-flex flex-column justify-content-between ">
+						<a href="#"><img src="assets/img/b2.jpg" class="img-fluid" alt=""></a>
+						<a href="#"><img src="assets/img/b3.jpg" class="img-fluid" alt=""></a>
+					</div>
+
+
+				</div>
+			</div>
+			<!-- end product slider  -->
+
+			<!-- start shiping  -->
+			<div class="container mt-5">
+				<div class="row">
+					<div class="col-sm-12 col-md-6 col-lg-3 col-xl-2 offset-xl-1 mb-2 shipping-wrapper ">
+						<div class="bg-light shadow">
+							<img src=" assets/img/shipping.png" alt="" class="float-right">
+							<p>
+							<p>ارسال رایگان</p>
+							به تمام نقاط کشور
+							</p>
+						</div>
+					</div>
+					<div class="col-sm-12 col-md-6 col-lg-3 col-xl-2 mb-2  shipping-wrapper ">
+						<div class="bg-light shadow">
+							<img src=" assets/img/shipping.png" alt="" class="float-right">
+							<p>
+							<p>ارسال رایگان</p>
+							به تمام نقاط کشور
+							</p>
+						</div>
+					</div>
+					<div class="col-sm-12 col-md-6 col-lg-3 col-xl-2 mb-2 shipping-wrapper ">
+						<div class="bg-light shadow">
+							<img src=" assets/img/shipping.png" alt="" class="float-right">
+							<p>
+							<p>ارسال رایگان</p>
+							به تمام نقاط کشور
+							</p>
+						</div>
+					</div>
+					<div class="col-sm-12 col-md-6 col-lg-3 col-xl-2 mb-2 shipping-wrapper ">
+						<div class="bg-light shadow">
+							<img src=" assets/img/shipping.png" alt="" class="float-right">
+							<p>
+							<p>ارسال رایگان</p>
+							به تمام نقاط کشور
+							</p>
+						</div>
+					</div>
+					<div class="col-sm-12 col-md-6 col-lg-3 col-xl-2 mb-2 shipping-wrapper ">
+						<div class="bg-light shadow">
+							<img src=" assets/img/shipping.png" alt="" class="float-right">
+							<p>
+							<p>ارسال رایگان</p>
+							به تمام نقاط کشور
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- end shiping  -->
+		</div>
+		<!-- start ads -->
+		<div class="container mt-5">
+			<div class="row">
+				<div class="col-sm-12 col-md-3  wrapper-ads mb-2">
+					<img src="assets/img/b5.jpg " class="img-fluid" alt="">
+				</div>
+				<div class="col-sm-12 col-md-6  wrapper-ads mb-2">
+					<img src="assets/img/b6.jpg" class="img-fluid" alt="">
+				</div>
+				<div class="col-sm-12 col-md-3  wrapper-ads mb-2">
+					<img src="assets/img/b7.jpg" class="img-fluid" alt="">
+				</div>
+			</div>
+		</div>
+		<!-- end ads -->
+	</div>
+
+	<!-- start category -->
+	<div class="container mt-5">
+		<div class="row no-gutters">
+			<div class="col-sm-12 col-md-3 col-lg-2 mb-2 mb-md-0 cat-hover">
+				<a href="#" class="text-decoration-none">
+					<div class="d-flex justify-content-center align-items-center bg-white">
+						<div class="cat-desc">
+							<p class="mb-2">موبایل و تبلت</p>
+							<p>567</p>
+						</div>
+						<img src="assets/img/category1.jpg " alt="">
+					</div>
+				</a>
+			</div>
+			<div class="col-sm-12 col-md-3 col-lg-2 mb-2 mb-md-0 cat-hover">
+				<a href="#" class="text-decoration-none">
+					<div class="d-flex justify-content-center align-items-center bg-white">
+						<div class="cat-desc">
+							<p class="mb-2">موبایل و تبلت</p>
+							<p>567</p>
+						</div>
+						<img src="assets/img/category2.jpg " alt="">
+					</div>
+				</a>
+			</div>
+			<div class="col-sm-12 col-md-3 col-lg-2 mb-2 mb-md-0 cat-hover">
+				<a href="#" class="text-decoration-none">
+					<div class="d-flex justify-content-center align-items-center bg-white">
+						<div class="cat-desc">
+							<p class="mb-2">موبایل و تبلت</p>
+							<p>567</p>
+						</div>
+						<img src="assets/img/category3.jpg " alt="">
+					</div>
+				</a>
+			</div>
+			<div class="col-sm-12 col-md-3 col-lg-2 mb-2 mb-md-0 cat-hover">
+				<a href="#" class="text-decoration-none">
+					<div class="d-flex justify-content-center align-items-center bg-white">
+						<div class="cat-desc">
+							<p class="mb-2">موبایل و تبلت</p>
+							<p>567</p>
+						</div>
+						<img src="assets/img/category4.jpg " alt="">
+					</div>
+				</a>
+			</div>
+			<div class="col-sm-12 col-md-3 col-lg-2 mb-2 mb-md-0 cat-hover">
+				<a href="#" class="text-decoration-none">
+					<div class="d-flex justify-content-center align-items-center bg-white">
+						<div class="cat-desc">
+							<p class="mb-2">موبایل و تبلت</p>
+							<p>567</p>
+						</div>
+						<img src="assets/img/category5.jpg " alt="">
+					</div>
+				</a>
+			</div>
+			<div class="col-sm-12 col-md-3 col-lg-2 mb-2 mb-md-0 cat-hover">
+				<a href="#" class="text-decoration-none">
+					<div class="d-flex justify-content-center align-items-center bg-white">
+						<div class="cat-desc">
+							<p class="mb-2">موبایل و تبلت</p>
+							<p>567</p>
+						</div>
+						<img src="assets/img/category6.jpg " alt="">
+					</div>
+				</a>
+			</div>
+			<div class="col-sm-12 col-md-3 col-lg-2 mb-2 mb-md-0 cat-hover">
+				<a href="#" class="text-decoration-none">
+					<div class="d-flex justify-content-center align-items-center bg-white">
+						<div class="cat-desc">
+							<p class="mb-2">موبایل و تبلت</p>
+							<p>567</p>
+						</div>
+						<img src="assets/img/category7.jpg " alt="">
+					</div>
+				</a>
+			</div>
+			<div class="col-sm-12 col-md-3 col-lg-2 mb-2 mb-md-0 cat-hover">
+				<a href="#" class="text-decoration-none">
+					<div class="d-flex justify-content-center align-items-center bg-white">
+						<div class="cat-desc">
+							<p class="mb-2">موبایل و تبلت</p>
+							<p>567</p>
+						</div>
+						<img src="assets/img/category8.jpg " alt="">
+					</div>
+				</a>
+			</div>
+			<div class="col-sm-12 col-md-3 col-lg-2 mb-2 mb-md-0 cat-hover">
+				<a href="#" class="text-decoration-none">
+					<div class="d-flex justify-content-center align-items-center bg-white">
+						<div class="cat-desc">
+							<p class="mb-2">موبایل و تبلت</p>
+							<p>567</p>
+						</div>
+						<img src="assets/img/category9.jpg " alt="">
+					</div>
+				</a>
+			</div>
+			<div class="col-sm-12 col-md-3 col-lg-2 mb-2 mb-md-0 cat-hover">
+				<a href="#" class="text-decoration-none">
+					<div class="d-flex justify-content-center align-items-center bg-white">
+						<div class="cat-desc">
+							<p class="mb-2">موبایل و تبلت</p>
+							<p>567</p>
+						</div>
+						<img src="assets/img/category10.jpg " alt="">
+					</div>
+				</a>
+			</div>
+			<div class="col-sm-12 col-md-3 col-lg-2 mb-2 mb-md-0 cat-hover">
+				<a href="#" class="text-decoration-none">
+					<div class="d-flex justify-content-center align-items-center bg-white">
+						<div class="cat-desc">
+							<p class="mb-2">موبایل و تبلت</p>
+							<p>567</p>
+						</div>
+						<img src="assets/img/category1.jpg " alt="">
+					</div>
+				</a>
+			</div>
+			<div class="col-sm-12 col-md-3 col-lg-2 mb-2 mb-md-0 cat-hover">
+				<a href="#" class="text-decoration-none">
+					<div class="d-flex justify-content-center align-items-center bg-white">
+						<div class="cat-desc">
+							<p class="mb-2">موبایل و تبلت</p>
+							<p>567</p>
+						</div>
+						<img src="assets/img/category1.jpg " alt="">
+					</div>
+				</a>
+			</div>
+		</div>
+	</div>
+	<!-- end category -->
+
+	<!-- start special offers -->
+	<section class="container mt-5">
+		<div class="row">
+			<div class="col-sm-12">
+				<nav>
+					<div class="nav nav-tabs custom-nav-tabs position-relative" id="nav-tab" role="tablist">
+						<p class="position-absolute offer-section-title">پیشنهاد ویژه امروز </p>
+						<a class="nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab"
+							aria-controls="nav-home" aria-selected="true">مد و پوشاک</a>
+						<a class="nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab"
+							aria-controls="nav-profile" aria-selected="false">بازی وسرگرمی</a>
+						<a class="nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab"
+							aria-controls="nav-contact" aria-selected="false">موبایل و تبلت</a>
+					</div>
+				</nav>
+				<div class="tab-content" id="nav-tabContent">
+					<div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+						<div class="container">
+							<div class="row">
+								<div class="col-sm-12 col-lg-6 bg-white position-relative special-offer-box-shadow ">
+									<span id="offer-expire-text" class="position-absolute"></span>
+									<div id="offer-blur" class="d-flex justify-content-between">
+										<div class="offer-product-image">
+											<img class="first-img" class="img-fluid" src="assets/img/s1.jpg" alt="">
+											<img class="second-img" class="img-fluid" src="assets/img/s2.jpg" alt="">
+										</div>
+										<div class="my-4 offer-details"><a href="" class="text-decoration-none ">هدست
+												فیلیپس مدل
+												b-43</a>
+											<div class="offer-rating mt-4">
+												<i class="far fa-star "></i>
+												<i class="far fa-star "></i>
+												<i class="fas fa-star "></i>
+												<i class="fas fa-star "></i>
+												<i class="fas fa-star "></i>
+											</div>
+											<div class="offer-price mt-3 ">
+												<s class="mr-3">250000 تومان</s><span>120000
+													تومان</span>
+											</div>
+											<div class="count-down-timer mt-4">
+												<p><span>فرصت باقی مانده</span> تا پایان این
+													پیشنهاد
+												</p>
+												<div class="demo" class="mt-4 d-flex justify-content-center">
+												</div>
+											</div>
+										</div>
+
+									</div>
+								</div>
+								<div class="col-sm-12 col-lg-6 bg-white position-relative special-offer-box-shadow ">
+									<span id="offer-expire-text" class="position-absolute"></span>
+									<div id="offer-blur" class="d-flex justify-content-between">
+										<div class="offer-product-image">
+											<img class="first-img" class="img-fluid" src="assets/img/s3.jpg" alt="">
+											<img class="second-img" class="img-fluid" src="assets/img/s4.jpg" alt="">
+										</div>
+										<div class="my-4 offer-details"><a href="" class="text-decoration-none ">هدست
+												فیلیپس مدل
+												b-43</a>
+											<div class="offer-rating mt-4">
+												<i class="far fa-star "></i>
+												<i class="far fa-star "></i>
+												<i class="fas fa-star "></i>
+												<i class="fas fa-star "></i>
+												<i class="fas fa-star "></i>
+											</div>
+											<div class="offer-price mt-3 ">
+												<s class="mr-3">250000 تومان</s><span>120000
+													تومان</span>
+											</div>
+											<div class="count-down-timer mt-4">
+												<p><span>فرصت باقی مانده</span> تا پایان این
+													پیشنهاد
+												</p>
+												<div class="demo" class="mt-4 d-flex justify-content-center">
+												</div>
+											</div>
+										</div>
+
+									</div>
+								</div>
+								<div class="col-sm-12 col-lg-6 bg-white position-relative special-offer-box-shadow ">
+									<span id="offer-expire-text" class="position-absolute"></span>
+									<div id="offer-blur" class="d-flex justify-content-between">
+										<div class="offer-product-image">
+											<img class="first-img" class="img-fluid" src="assets/img/s5.jpg" alt="">
+											<img class="second-img" class="img-fluid" src="assets/img/s6.jpg" alt="">
+										</div>
+										<div class="my-4 offer-details"><a href="" class="text-decoration-none ">هدست
+												فیلیپس مدل
+												b-43</a>
+											<div class="offer-rating mt-4">
+												<i class="far fa-star "></i>
+												<i class="far fa-star "></i>
+												<i class="fas fa-star "></i>
+												<i class="fas fa-star "></i>
+												<i class="fas fa-star "></i>
+											</div>
+											<div class="offer-price mt-3 ">
+												<s class="mr-3">250000 تومان</s><span>120000
+													تومان</span>
+											</div>
+											<div class="count-down-timer mt-4">
+												<p><span>فرصت باقی مانده</span> تا پایان این
+													پیشنهاد
+												</p>
+												<div class="demo" class="mt-4 d-flex justify-content-center">
+												</div>
+											</div>
+										</div>
+
+									</div>
+								</div>
+								<div class="col-sm-12 col-lg-6 bg-white position-relative special-offer-box-shadow ">
+									<span id="offer-expire-text" class="position-absolute"></span>
+									<div id="offer-blur" class="d-flex justify-content-between">
+										<div class="offer-product-image">
+											<img class="first-img" class="img-fluid" src="assets/img/s7.jpg" alt="">
+											<img class="second-img" class="img-fluid" src="assets/img/s8.jpg" alt="">
+										</div>
+										<div class="my-4 offer-details"><a href="" class="text-decoration-none ">هدست
+												فیلیپس مدل
+												b-43</a>
+											<div class="offer-rating mt-4">
+												<i class="far fa-star "></i>
+												<i class="far fa-star "></i>
+												<i class="fas fa-star "></i>
+												<i class="fas fa-star "></i>
+												<i class="fas fa-star "></i>
+											</div>
+											<div class="offer-price mt-3 ">
+												<s class="mr-3">250000 تومان</s><span>120000
+													تومان</span>
+											</div>
+											<div class="count-down-timer mt-4">
+												<p><span>فرصت باقی مانده</span> تا پایان این
+													پیشنهاد
+												</p>
+												<div class="demo" class="mt-4 d-flex justify-content-center">
+												</div>
+											</div>
+										</div>
+
+									</div>
+								</div>
+
+							</div>
+						</div>
+					</div>
+					<div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+						<div class="container">
+							<div class="row">
+								<div class="col-sm-12 col-lg-6 bg-white position-relative">
+									<span id="offer-expire-text" class="position-absolute"></span>
+									<div id="offer-blur" class="d-flex justify-content-between">
+										<div class="offer-product-image">
+											<img class="first-img" class="img-fluid" src="assets/img/s1.jpg" alt="">
+											<img class="second-img" class="img-fluid" src="assets/img/s2.jpg" alt="">
+										</div>
+										<div class="my-4 offer-details"><a href="" class="text-decoration-none ">هدست
+												فیلیپس مدل
+												b-43</a>
+											<div class="offer-rating mt-4">
+												<i class="far fa-star "></i>
+												<i class="far fa-star "></i>
+												<i class="fas fa-star "></i>
+												<i class="fas fa-star "></i>
+												<i class="fas fa-star "></i>
+											</div>
+											<div class="offer-price mt-3 ">
+												<s class="mr-3">250000 تومان</s><span>120000
+													تومان</span>
+											</div>
+											<div class="count-down-timer mt-4">
+												<p><span>فرصت باقی مانده</span> تا پایان این
+													پیشنهاد
+												</p>
+												<div class="demo" class="mt-4 d-flex justify-content-center">
+												</div>
+											</div>
+										</div>
+
+									</div>
+								</div>
+								<div class="col-sm-12 col-lg-6 bg-white position-relative">
+									<span id="offer-expire-text" class="position-absolute"></span>
+									<div id="offer-blur" class="d-flex justify-content-between">
+										<div class="offer-product-image">
+											<img class="first-img" class="img-fluid" src="assets/img/s3.jpg" alt="">
+											<img class="second-img" class="img-fluid" src="assets/img/s4.jpg" alt="">
+										</div>
+										<div class="my-4 offer-details"><a href="" class="text-decoration-none ">هدست
+												فیلیپس مدل
+												b-43</a>
+											<div class="offer-rating mt-4">
+												<i class="far fa-star "></i>
+												<i class="far fa-star "></i>
+												<i class="fas fa-star "></i>
+												<i class="fas fa-star "></i>
+												<i class="fas fa-star "></i>
+											</div>
+											<div class="offer-price mt-3 ">
+												<s class="mr-3">250000 تومان</s><span>120000
+													تومان</span>
+											</div>
+											<div class="count-down-timer mt-4">
+												<p><span>فرصت باقی مانده</span> تا پایان این
+													پیشنهاد
+												</p>
+												<div class="demo" class="mt-4 d-flex justify-content-center">
+												</div>
+											</div>
+										</div>
+
+									</div>
+								</div>
+								<div class="col-sm-12 col-lg-6 bg-white position-relative">
+									<span id="offer-expire-text" class="position-absolute"></span>
+									<div id="offer-blur" class="d-flex justify-content-between">
+										<div class="offer-product-image">
+											<img class="first-img" class="img-fluid" src="assets/img/s5.jpg" alt="">
+											<img class="second-img" class="img-fluid" src="assets/img/s6.jpg" alt="">
+										</div>
+										<div class="my-4 offer-details"><a href="" class="text-decoration-none ">هدست
+												فیلیپس مدل
+												b-43</a>
+											<div class="offer-rating mt-4">
+												<i class="far fa-star "></i>
+												<i class="far fa-star "></i>
+												<i class="fas fa-star "></i>
+												<i class="fas fa-star "></i>
+												<i class="fas fa-star "></i>
+											</div>
+											<div class="offer-price mt-3 ">
+												<s class="mr-3">250000 تومان</s><span>120000
+													تومان</span>
+											</div>
+											<div class="count-down-timer mt-4">
+												<p><span>فرصت باقی مانده</span> تا پایان این
+													پیشنهاد
+												</p>
+												<div class="demo" class="mt-4 d-flex justify-content-center">
+												</div>
+											</div>
+										</div>
+
+									</div>
+								</div>
+								<div class="col-sm-12 col-lg-6 bg-white position-relative">
+									<span id="offer-expire-text" class="position-absolute"></span>
+									<div id="offer-blur" class="d-flex justify-content-between">
+										<div class="offer-product-image">
+											<img class="first-img" class="img-fluid" src="assets/img/s7.jpg" alt="">
+											<img class="second-img" class="img-fluid" src="assets/img/s8.jpg" alt="">
+										</div>
+										<div class="my-4 offer-details"><a href="" class="text-decoration-none ">هدست
+												فیلیپس مدل
+												b-43</a>
+											<div class="offer-rating mt-4">
+												<i class="far fa-star "></i>
+												<i class="far fa-star "></i>
+												<i class="fas fa-star "></i>
+												<i class="fas fa-star "></i>
+												<i class="fas fa-star "></i>
+											</div>
+											<div class="offer-price mt-3 ">
+												<s class="mr-3">250000 تومان</s><span>120000
+													تومان</span>
+											</div>
+											<div class="count-down-timer mt-4">
+												<p><span>فرصت باقی مانده</span> تا پایان این
+													پیشنهاد
+												</p>
+												<div class="demo" class="mt-4 d-flex justify-content-center">
+												</div>
+											</div>
+										</div>
+
+									</div>
+								</div>
+
+							</div>
+						</div>
+					</div>
+					<div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+						<div class="container">
+							<div class="row">
+								<div class="col-sm-12 col-lg-6 bg-white position-relative">
+									<span id="offer-expire-text" class="position-absolute"></span>
+									<div id="offer-blur" class="d-flex justify-content-between">
+										<div class="offer-product-image">
+											<img class="first-img" class="img-fluid" src="assets/img/s1.jpg" alt="">
+											<img class="second-img" class="img-fluid" src="assets/img/s2.jpg" alt="">
+										</div>
+										<div class="my-4 offer-details"><a href="" class="text-decoration-none ">هدست
+												فیلیپس مدل
+												b-43</a>
+											<div class="offer-rating mt-4">
+												<i class="far fa-star "></i>
+												<i class="far fa-star "></i>
+												<i class="fas fa-star "></i>
+												<i class="fas fa-star "></i>
+												<i class="fas fa-star "></i>
+											</div>
+											<div class="offer-price mt-3 ">
+												<s class="mr-3">250000 تومان</s><span>120000
+													تومان</span>
+											</div>
+											<div class="count-down-timer mt-4">
+												<p><span>فرصت باقی مانده</span> تا پایان این
+													پیشنهاد
+												</p>
+												<div class="demo" class="mt-4 d-flex justify-content-center">
+												</div>
+											</div>
+										</div>
+
+									</div>
+								</div>
+								<div class="col-sm-12 col-lg-6 bg-white position-relative">
+									<span id="offer-expire-text" class="position-absolute"></span>
+									<div id="offer-blur" class="d-flex justify-content-between">
+										<div class="offer-product-image">
+											<img class="first-img" class="img-fluid" src="assets/img/s3.jpg" alt="">
+											<img class="second-img" class="img-fluid" src="assets/img/s4.jpg" alt="">
+										</div>
+										<div class="my-4 offer-details"><a href="" class="text-decoration-none ">هدست
+												فیلیپس مدل
+												b-43</a>
+											<div class="offer-rating mt-4">
+												<i class="far fa-star "></i>
+												<i class="far fa-star "></i>
+												<i class="fas fa-star "></i>
+												<i class="fas fa-star "></i>
+												<i class="fas fa-star "></i>
+											</div>
+											<div class="offer-price mt-3 ">
+												<s class="mr-3">250000 تومان</s><span>120000
+													تومان</span>
+											</div>
+											<div class="count-down-timer mt-4">
+												<p><span>فرصت باقی مانده</span> تا پایان این
+													پیشنهاد
+												</p>
+												<div class="demo" class="mt-4 d-flex justify-content-center">
+												</div>
+											</div>
+										</div>
+
+									</div>
+								</div>
+								<div class="col-sm-12 col-lg-6 bg-white position-relative">
+									<span id="offer-expire-text" class="position-absolute"></span>
+									<div id="offer-blur" class="d-flex justify-content-between">
+										<div class="offer-product-image">
+											<img class="first-img" class="img-fluid" src="assets/img/s5.jpg" alt="">
+											<img class="second-img" class="img-fluid" src="assets/img/s6.jpg" alt="">
+										</div>
+										<div class="my-4 offer-details"><a href="" class="text-decoration-none ">هدست
+												فیلیپس مدل
+												b-43</a>
+											<div class="offer-rating mt-4">
+												<i class="far fa-star "></i>
+												<i class="far fa-star "></i>
+												<i class="fas fa-star "></i>
+												<i class="fas fa-star "></i>
+												<i class="fas fa-star "></i>
+											</div>
+											<div class="offer-price mt-3 ">
+												<s class="mr-3">250000 تومان</s><span>120000
+													تومان</span>
+											</div>
+											<div class="count-down-timer mt-4">
+												<p><span>فرصت باقی مانده</span> تا پایان این
+													پیشنهاد
+												</p>
+												<div class="demo" class="mt-4 d-flex justify-content-center">
+												</div>
+											</div>
+										</div>
+
+									</div>
+								</div>
+								<div class="col-sm-12 col-lg-6 bg-white position-relative">
+									<span id="offer-expire-text" class="position-absolute"></span>
+									<div id="offer-blur" class="d-flex justify-content-between">
+										<div class="offer-product-image">
+											<img class="first-img" class="img-fluid" src="assets/img/s7.jpg" alt="">
+											<img class="second-img" class="img-fluid" src="assets/img/s8.jpg" alt="">
+										</div>
+										<div class="my-4 offer-details"><a href="" class="text-decoration-none ">هدست
+												فیلیپس مدل
+												b-43</a>
+											<div class="offer-rating mt-4">
+												<i class="far fa-star "></i>
+												<i class="far fa-star "></i>
+												<i class="fas fa-star "></i>
+												<i class="fas fa-star "></i>
+												<i class="fas fa-star "></i>
+											</div>
+											<div class="offer-price mt-3 ">
+												<s class="mr-3">250000 تومان</s><span>120000
+													تومان</span>
+											</div>
+											<div class="count-down-timer mt-4">
+												<p><span>فرصت باقی مانده</span> تا پایان این
+													پیشنهاد
+												</p>
+												<div class="demo" class="mt-4 d-flex justify-content-center">
+												</div>
+											</div>
+										</div>
+
+									</div>
+								</div>
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- end special offers -->
+
+	<!-- owl slider -->
+	<section class="container mt-5">
+		<div class="row">
+			<div class="col-sm-12 ">
+				<p class="position-absolute offer-section-title" style="    right: 0;
+				margin-right: 14px;
+				width: 220px;">پرفروش ترین محصولات </p>
+				<div class="owl-carousel bg-white position-relative mt-5">
+					<a href="" class="text-decoration-none">
+						<div class="px-3">
+							<div class="card custom-card" style="width: 18rem;">
+								<img class="p-img mt-4" src="assets/img/o1.jpg" class="card-img-top" alt="...">
+								<div class="card-body text-center">
+									<p class="card-text p-title mt-2">گوشی موبایل سامسونگ - مدل s 10</p>
+									<p class="p-price mt-2"><s>10000000 میلیون تومان</s>
+										6400000تومان
+										<span class="badge badge-danger mt-1">15%</span></p>
+								</div>
+							</div>
+						</div>
+					</a>
+					<a href="" class="text-decoration-none">
+						<div class="px-3">
+							<div class="card custom-card" style="width: 18rem;">
+								<img class="p-img mt-4" src="assets/img/o2.jpg" class="card-img-top" alt="...">
+								<div class="card-body text-center">
+									<p class="card-text p-title mt-2">گوشی موبایل سامسونگ - مدل s 10</p>
+									<p class="p-price mt-2"><s>10000000 میلیون تومان</s>
+										6400000تومان
+										<span class="badge badge-danger mt-1">15%</span></p>
+								</div>
+							</div>
+						</div>
+					</a>
+					<a href="" class="text-decoration-none">
+						<div class="px-3">
+							<div class="card custom-card" style="width: 18rem;">
+								<img class="p-img mt-4" src="assets/img/o2.jpg" class="card-img-top" alt="...">
+								<div class="card-body text-center">
+									<p class="card-text p-title mt-2">گوشی موبایل سامسونگ - مدل s 10</p>
+									<p class="p-price mt-2"><s>10000000 میلیون تومان</s>
+										6400000تومان
+										<span class="badge badge-danger mt-1">15%</span></p>
+								</div>
+							</div>
+						</div>
+					</a>
+					<a href="" class="text-decoration-none">
+						<div class="px-3">
+							<div class="card custom-card" style="width: 18rem;">
+								<img class="p-img mt-4" src="assets/img/o2.jpg" class="card-img-top" alt="...">
+								<div class="card-body text-center">
+									<p class="card-text p-title mt-2">گوشی موبایل سامسونگ - مدل s 10</p>
+									<p class="p-price mt-2"><s>10000000 میلیون تومان</s>
+										6400000تومان
+										<span class="badge badge-danger mt-1">15%</span></p>
+								</div>
+							</div>
+						</div>
+					</a>
+					<a href="" class="text-decoration-none">
+						<div class="px-3">
+							<div class="card custom-card" style="width: 18rem;">
+								<img class="p-img mt-4" src="assets/img/o2.jpg" class="card-img-top" alt="...">
+								<div class="card-body text-center">
+									<p class="card-text p-title mt-2">گوشی موبایل سامسونگ - مدل s 10</p>
+									<p class="p-price mt-2"><s>10000000 میلیون تومان</s>
+										6400000تومان
+										<span class="badge badge-danger mt-1">15%</span></p>
+								</div>
+							</div>
+						</div>
+					</a>
+					<a href="" class="text-decoration-none">
+						<div class="px-3">
+							<div class="card custom-card" style="width: 18rem;">
+								<img class="p-img mt-4" src="assets/img/o3.jpg" class="card-img-top" alt="...">
+								<div class="card-body text-center">
+									<p class="card-text p-title mt-2">گوشی موبایل سامسونگ - مدل s 10</p>
+									<p class="p-price mt-2"><s>10000000 میلیون تومان</s>
+										6400000تومان
+										<span class="badge badge-danger mt-1">15%</span></p>
+								</div>
+							</div>
+						</div>
+					</a>
+					<a href="" class="text-decoration-none">
+						<div class="px-3">
+							<div class="card custom-card" style="width: 18rem;">
+								<img class="p-img mt-4" src="assets/img/o4.jpg" class="card-img-top" alt="...">
+								<div class="card-body text-center">
+									<p class="card-text p-title mt-2">گوشی موبایل سامسونگ - مدل s 10</p>
+									<p class="p-price mt-2"><s>10000000 میلیون تومان</s>
+										6400000تومان
+										<span class="badge badge-danger mt-1">15%</span></p>
+								</div>
+							</div>
+						</div>
+					</a>
+
+
+
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- owl slider end -->
+
+	<!-- start banner 1 -->
+	<div class="container mt-5 banner-section-1">
+		<div class="row">
+			<div class="col-sm-12 col-md-3 banner-img-hover mb-2">
+
+				<a href=""><img src="assets/img/ads3.jpg" alt="" class="img-fluid"></a>
+
+			</div>
+			<div class="col-sm-12 col-md-3 banner-img-hover mb-2">
+
+				<a href=""><img src="assets/img/ads4.jpg" alt="" class="img-fluid"></a>
+
+			</div>
+			<div class="col-sm-12 col-md-3 banner-img-hover mb-2">
+
+				<a href=""><img src="assets/img/ads6.jpg" alt="" class="img-fluid"></a>
+
+			</div>
+			<div class="col-sm-12 col-md-3 banner-img-hover mb-2">
+
+				<a href=""><img src="assets/img/ad5.jpg" alt="" class="img-fluid"></a>
+
+
+			</div>
+
+
+		</div>
+	</div>
+	<!-- end banner 1 -->
+
+	<!-- owl slider 2 start -->
+	<section class="container mt-5">
+		<div class="row">
+			<div class="col-sm-12 ">
+				<p class="position-absolute offer-section-title" style="    right: 0;
+				margin-right: 14px;
+				width: 277px;">پرفروش ترین تلفن های همراه </p>
+				<div class="owl-carousel bg-white position-relative mt-5">
+					<a href="" class="text-decoration-none">
+						<div class="px-3">
+							<div class="card custom-card" style="width: 18rem;">
+								<img class="p-img mt-4" src="assets/img/o9.jpg" class="card-img-top" alt="...">
+								<div class="card-body text-center">
+									<p class="card-text p-title mt-2">گوشی موبایل سامسونگ - مدل s 10</p>
+									<p class="p-price mt-2"><s>10000000 میلیون تومان</s>
+										6400000تومان
+										<span class="badge badge-danger mt-1">15%</span></p>
+								</div>
+							</div>
+						</div>
+					</a>
+					<a href="" class="text-decoration-none">
+						<div class="px-3">
+							<div class="card custom-card" style="width: 18rem;">
+								<img class="p-img mt-4" src="assets/img/o10.jpg" class="card-img-top" alt="...">
+								<div class="card-body text-center">
+									<p class="card-text p-title mt-2">گوشی موبایل سامسونگ - مدل s 10</p>
+									<p class="p-price mt-2"><s>10000000 میلیون تومان</s>
+										6400000تومان
+										<span class="badge badge-danger mt-1">15%</span></p>
+								</div>
+							</div>
+						</div>
+					</a>
+					<a href="" class="text-decoration-none">
+						<div class="px-3">
+							<div class="card custom-card" style="width: 18rem;">
+								<img class="p-img mt-4" src="assets/img/o10.jpg" class="card-img-top" alt="...">
+								<div class="card-body text-center">
+									<p class="card-text p-title mt-2">گوشی موبایل سامسونگ - مدل s 10</p>
+									<p class="p-price mt-2"><s>10000000 میلیون تومان</s>
+										6400000تومان
+										<span class="badge badge-danger mt-1">15%</span></p>
+								</div>
+							</div>
+						</div>
+					</a>
+					<a href="" class="text-decoration-none">
+						<div class="px-3">
+							<div class="card custom-card" style="width: 18rem;">
+								<img class="p-img mt-4" src="assets/img/o10.jpg" class="card-img-top" alt="...">
+								<div class="card-body text-center">
+									<p class="card-text p-title mt-2">گوشی موبایل سامسونگ - مدل s 10</p>
+									<p class="p-price mt-2"><s>10000000 میلیون تومان</s>
+										6400000تومان
+										<span class="badge badge-danger mt-1">15%</span></p>
+								</div>
+							</div>
+						</div>
+					</a>
+					<a href="" class="text-decoration-none">
+						<div class="px-3">
+							<div class="card custom-card" style="width: 18rem;">
+								<img class="p-img mt-4" src="assets/img/o10.jpg" class="card-img-top" alt="...">
+								<div class="card-body text-center">
+									<p class="card-text p-title mt-2">گوشی موبایل سامسونگ - مدل s 10</p>
+									<p class="p-price mt-2"><s>10000000 میلیون تومان</s>
+										6400000تومان
+										<span class="badge badge-danger mt-1">15%</span></p>
+								</div>
+							</div>
+						</div>
+					</a>
+					<a href="" class="text-decoration-none">
+						<div class="px-3">
+							<div class="card custom-card" style="width: 18rem;">
+								<img class="p-img mt-4" src="assets/img/o10.jpg" class="card-img-top" alt="...">
+								<div class="card-body text-center">
+									<p class="card-text p-title mt-2">گوشی موبایل سامسونگ - مدل s 10</p>
+									<p class="p-price mt-2"><s>10000000 میلیون تومان</s>
+										6400000تومان
+										<span class="badge badge-danger mt-1">15%</span></p>
+								</div>
+							</div>
+						</div>
+					</a>
+					<a href="" class="text-decoration-none">
+						<div class="px-3">
+							<div class="card custom-card" style="width: 18rem;">
+								<img class="p-img mt-4" src="assets/img/o11.jpg" class="card-img-top" alt="...">
+								<div class="card-body text-center">
+									<p class="card-text p-title mt-2">گوشی موبایل سامسونگ - مدل s 10</p>
+									<p class="p-price mt-2"><s>10000000 میلیون تومان</s>
+										6400000تومان
+										<span class="badge badge-danger mt-1">15%</span></p>
+								</div>
+							</div>
+						</div>
+					</a>
+					<a href="" class="text-decoration-none">
+						<div class="px-3">
+							<div class="card custom-card" style="width: 18rem;">
+								<img class="p-img mt-4" src="assets/img/o12.jpg" class="card-img-top" alt="...">
+								<div class="card-body text-center">
+									<p class="card-text p-title mt-2">گوشی موبایل سامسونگ - مدل s 10</p>
+									<p class="p-price mt-2"><s>10000000 میلیون تومان</s>
+										6400000تومان
+										<span class="badge badge-danger mt-1">15%</span></p>
+								</div>
+							</div>
+						</div>
+					</a>
+
+
+
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- owl slider 2 end -->
+
+	<!-- banner 2 start -->
+	<div class="container mt-5 banner-section-2">
+		<div class="row">
+			<div class="col-sm-12 mb-2">
+				<a href="product-single.html">
+					<img src="assets/img/f-banner.jpg" class="img-fluid rounded" alt="">
+				</a>
+			</div>
+
+
+		</div>
+	</div>
+	<!-- banner 2 end -->
+
+	<!-- owl slider 3 -->
+	<section class="container mt-5">
+		<div class="row">
+			<div class="col-sm-12 ">
+				<p class="position-absolute offer-section-title" style="    right: 0;
+				margin-right: 14px;
+				width: 277px;">پرفروش ترین لپ تاپ ها </p>
+				<div class="owl-carousel bg-white position-relative mt-5">
+					<a href="" class="text-decoration-none">
+						<div class="px-3">
+							<div class="card custom-card" style="width: 18rem;">
+								<img class="p-img mt-4" src="assets/img/o9.jpg" class="card-img-top" alt="...">
+								<div class="card-body text-center">
+									<p class="card-text p-title mt-2">گوشی موبایل سامسونگ - مدل s 10</p>
+									<p class="p-price mt-2"><s>10000000 میلیون تومان</s>
+										6400000تومان
+										<span class="badge badge-danger mt-1">15%</span></p>
+								</div>
+							</div>
+						</div>
+					</a>
+					<a href="" class="text-decoration-none">
+						<div class="px-3">
+							<div class="card custom-card" style="width: 18rem;">
+								<img class="p-img mt-4" src="assets/img/o10.jpg" class="card-img-top" alt="...">
+								<div class="card-body text-center">
+									<p class="card-text p-title mt-2">گوشی موبایل سامسونگ - مدل s 10</p>
+									<p class="p-price mt-2"><s>10000000 میلیون تومان</s>
+										6400000تومان
+										<span class="badge badge-danger mt-1">15%</span></p>
+								</div>
+							</div>
+						</div>
+					</a>
+					<a href="" class="text-decoration-none">
+						<div class="px-3">
+							<div class="card custom-card" style="width: 18rem;">
+								<img class="p-img mt-4" src="assets/img/o11.jpg" class="card-img-top" alt="...">
+								<div class="card-body text-center">
+									<p class="card-text p-title mt-2">گوشی موبایل سامسونگ - مدل s 10</p>
+									<p class="p-price mt-2"><s>10000000 میلیون تومان</s>
+										6400000تومان
+										<span class="badge badge-danger mt-1">15%</span></p>
+								</div>
+							</div>
+						</div>
+					</a>
+					<a href="" class="text-decoration-none">
+						<div class="px-3">
+							<div class="card custom-card" style="width: 18rem;">
+								<img class="p-img mt-4" src="assets/img/o12.jpg" class="card-img-top" alt="...">
+								<div class="card-body text-center">
+									<p class="card-text p-title mt-2">گوشی موبایل سامسونگ - مدل s 10</p>
+									<p class="p-price mt-2"><s>10000000 میلیون تومان</s>
+										6400000تومان
+										<span class="badge badge-danger mt-1">15%</span></p>
+								</div>
+							</div>
+						</div>
+					</a>
+					<a href="" class="text-decoration-none">
+						<div class="px-3">
+							<div class="card custom-card" style="width: 18rem;">
+								<img class="p-img mt-4" src="assets/img/o12.jpg" class="card-img-top" alt="...">
+								<div class="card-body text-center">
+									<p class="card-text p-title mt-2">گوشی موبایل سامسونگ - مدل s 10</p>
+									<p class="p-price mt-2"><s>10000000 میلیون تومان</s>
+										6400000تومان
+										<span class="badge badge-danger mt-1">15%</span></p>
+								</div>
+							</div>
+						</div>
+					</a>
+					<a href="" class="text-decoration-none">
+						<div class="px-3">
+							<div class="card custom-card" style="width: 18rem;">
+								<img class="p-img mt-4" src="assets/img/o12.jpg" class="card-img-top" alt="...">
+								<div class="card-body text-center">
+									<p class="card-text p-title mt-2">گوشی موبایل سامسونگ - مدل s 10</p>
+									<p class="p-price mt-2"><s>10000000 میلیون تومان</s>
+										6400000تومان
+										<span class="badge badge-danger mt-1">15%</span></p>
+								</div>
+							</div>
+						</div>
+					</a>
+					<a href="" class="text-decoration-none">
+						<div class="px-3">
+							<div class="card custom-card" style="width: 18rem;">
+								<img class="p-img mt-4" src="assets/img/o12.jpg" class="card-img-top" alt="...">
+								<div class="card-body text-center">
+									<p class="card-text p-title mt-2">گوشی موبایل سامسونگ - مدل s 10</p>
+									<p class="p-price mt-2"><s>10000000 میلیون تومان</s>
+										6400000تومان
+										<span class="badge badge-danger mt-1">15%</span></p>
+								</div>
+							</div>
+						</div>
+					</a>
+					<a href="" class="text-decoration-none">
+						<div class="px-3">
+							<div class="card custom-card" style="width: 18rem;">
+								<img class="p-img mt-4" src="assets/img/o12.jpg" class="card-img-top" alt="...">
+								<div class="card-body text-center">
+									<p class="card-text p-title mt-2">گوشی موبایل سامسونگ - مدل s 10</p>
+									<p class="p-price mt-2"><s>10000000 میلیون تومان</s>
+										6400000تومان
+										<span class="badge badge-danger mt-1">15%</span></p>
+								</div>
+							</div>
+						</div>
+					</a>
+					<a href="" class="text-decoration-none">
+						<div class="px-3">
+							<div class="card custom-card" style="width: 18rem;">
+								<img class="p-img mt-4" src="assets/img/o12.jpg" class="card-img-top" alt="...">
+								<div class="card-body text-center">
+									<p class="card-text p-title mt-2">گوشی موبایل سامسونگ - مدل s 10</p>
+									<p class="p-price mt-2"><s>10000000 میلیون تومان</s>
+										6400000تومان
+										<span class="badge badge-danger mt-1">15%</span></p>
+								</div>
+							</div>
+						</div>
+					</a>
+
+
+
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- owl slider 3 end -->
+
+
+	<!-- banner 3 start -->
+	<div class="container mt-5">
+		<div class="row">
+			<div class="col-sm-12 col-md-6 mb-2">
+				<a href="">
+					<img src="assets/img/banner-half1.jpg" class="img-fluid rounded" alt="">
+				</a>
+			</div>
+			<div class="col-sm-12 col-md-6 mb-2">
+				<a href="">
+					<img src="assets/img/banner-half2.jpg" class="img-fluid rounded" alt="">
+				</a>
+			</div>
+
+
+		</div>
+	</div>
+	<!-- banner 3 end -->
+
+	<!-- owl slider 4 brands -->
+	<section class="container mt-5 " style="margin-bottom: 250px;">
+		<div class="row">
+			<div class="col-sm-12 ">
+				<p class="position-absolute offer-section-title" style="    right: 0;
+				margin-right: 14px;
+				width: 277px;">پرفروش ترین لپ تاپ ها </p>
+				<div class="owl-carousel owl-carousel-brand bg-white position-relative mt-5">
+					<a href="" class="text-decoration-none">
+						<div class="px-3">
+							<div class="card custom-card" style="width: 18rem;">
+								<img class="p-img mt-4" src="assets/img/br1.jpg" class="card-img-top" alt="...">
+
+							</div>
+						</div>
+					</a>
+					<a href="" class="text-decoration-none">
+						<div class="px-3">
+							<div class="card custom-card" style="width: 18rem;">
+								<img class="p-img mt-4" src="assets/img/br2.png" class="card-img-top" alt="...">
+
+							</div>
+						</div>
+					</a>
+					<a href="" class="text-decoration-none">
+						<div class="px-3">
+							<div class="card custom-card" style="width: 18rem;">
+								<img class="p-img mt-4" src="assets/img/br3.png" class="card-img-top" alt="...">
+
+							</div>
+						</div>
+					</a>
+					<a href="" class="text-decoration-none">
+						<div class="px-3">
+							<div class="card custom-card" style="width: 18rem;">
+								<img class="p-img mt-4" src="assets/img/br4.jpg" class="card-img-top" alt="...">
+
+							</div>
+						</div>
+					</a>
+					<a href="" class="text-decoration-none">
+						<div class="px-3">
+							<div class="card custom-card" style="width: 18rem;">
+								<img class="p-img mt-4" src="assets/img/br5.png" class="card-img-top" alt="...">
+
+							</div>
+						</div>
+					</a>
+					<a href="" class="text-decoration-none">
+						<div class="px-3">
+							<div class="card custom-card" style="width: 18rem;">
+								<img class="p-img mt-4" src="assets/img/br6.jpg" class="card-img-top" alt="...">
+
+							</div>
+						</div>
+					</a>
+					<a href="" class="text-decoration-none">
+						<div class="px-3">
+							<div class="card custom-card" style="width: 18rem;">
+								<img class="p-img mt-4" src="assets/img/br7.png" class="card-img-top" alt="...">
+
+							</div>
+						</div>
+					</a>
+					<a href="" class="text-decoration-none">
+						<div class="px-3">
+							<div class="card custom-card" style="width: 18rem;">
+								<img class="p-img mt-4" src="assets/img/br8.png" class="card-img-top" alt="...">
+
+							</div>
+						</div>
+					</a>
+					<a href="" class="text-decoration-none">
+						<div class="px-3">
+							<div class="card custom-card" style="width: 18rem;">
+								<img class="p-img mt-4" src="assets/img/br9.jpg" class="card-img-top" alt="...">
+
+							</div>
+						</div>
+					</a>
+
+
+
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- owl slider 4 brands end -->
+
+	<!-- start footer -->
+	<footer class="container-fluid bg-white mt-5 ">
+		<div class="row pb-5">
+			<section class="container news-letter">
+				<div class="row py-4 bg-white shadow-sm">
+					<div class="col-sm-12 col-md-3  news-letter-s1 d-flex justify-content-center flex-column mb-4">
+
+						<h6>عضویت در خبرنامه</h6>
+						<p> با عضویت از <span class="text-danger">30% تخفیف</span> بهر مند شوید </p>
+
+					</div>
+					<div class="col-sm-12 col-md-4 news-letter-s2 d-flex justify-content-center mb-4">
+						<p>
+							به<strong class="text-success"> هواداران ما ملحق شوید</strong> و از جوایز ویژه مخصوص مشترکین
+							خبرنامه بهره
+							مند شوید
+						</p>
+					</div>
+					<div
+						class="col-sm-12 col-md-5 news-latter-s3 d-flex justify-content-center align-items-center mb-4">
+						<div class="input-group">
+							<input type="text" class="form-control input-news-letter" placeholder="آدرس ایمیل">
+							<div class="input-group-append">
+								<button class="btn btn-danger px-4" type="button">اشتراک</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<div class="container main-section-footer">
+				<div class="row my-4">
+					<div class="col-6 col-sm-6 col-md-3 mb-3">
+						<h5>اطلاعات</h5>
+						<ul class="nav flex-column footer-nav-custom">
+							<li class="nav-item"><a href="" class="nav-link pr-0">درباره ی ما</a></li>
+							<li class="nav-item"><a href="" class="nav-link pr-0">نحوه ارسال</a></li>
+							<li class="nav-item"><a href="" class="nav-link pr-0">محصولات جدید</a></li>
+							<li class="nav-item"><a href="" class="nav-link pr-0">محصولات منتخب</a></li>
+							<li class="nav-item"><a href="" class="nav-link pr-0">حساب کاربری</a></li>
+							<li class="nav-item"><a href="" class="nav-link pr-0">سابقه سفارشات</a></li>
+						</ul>
+					</div>
+					<div class="col-6 col-sm-6 col-md-3 mb-3">
+						<h5>خدمات مشریان</h5>
+						<ul class="nav flex-column footer-nav-custom">
+							<ul class="nav flex-column">
+								<li class="nav-item"><a href="" class="nav-link pr-0">درباره ی ما</a></li>
+								<li class="nav-item"><a href="" class="nav-link pr-0">نحوه ارسال</a></li>
+								<li class="nav-item"><a href="" class="nav-link pr-0">محصولات جدید</a></li>
+								<li class="nav-item"><a href="" class="nav-link pr-0">محصولات منتخب</a></li>
+								<li class="nav-item"><a href="" class="nav-link pr-0">حساب کاربری</a></li>
+								<li class="nav-item"><a href="" class="nav-link pr-0">سابقه سفارشات</a></li>
+							</ul>
+						</ul>
+					</div>
+					<div class="col-6 col-sm-6 col-md-3 mb-3">
+						<h5>حساب کاربری</h5>
+						<ul class="nav flex-column footer-nav-custom">
+							<li class="nav-item"><a href="" class="nav-link pr-0">درباره ی ما</a></li>
+							<li class="nav-item"><a href="" class="nav-link pr-0">نحوه ارسال</a></li>
+							<li class="nav-item"><a href="" class="nav-link pr-0">محصولات جدید</a></li>
+							<li class="nav-item"><a href="" class="nav-link pr-0">محصولات منتخب</a></li>
+							<li class="nav-item"><a href="" class="nav-link pr-0">حساب کاربری</a></li>
+							<li class="nav-item"><a href="" class="nav-link pr-0">سابقه سفارشات</a></li>
+						</ul>
+
+					</div>
+					<div class="col-6 col-sm-6 col-md-3 mb-3">
+						<h5>اطلاعات تماس</h5>
+						<div class="d-flex align-items-center justify-content-start">
+							<div class="support-rules mt-2"><i class="fas fa-headset mr-3"></i></div>
+							<div class="tel-support mt-3">
+								<p>پشتیبانی 24 ساعته </p>
+								<a href="tel:09353614203" class="text-decoration-none">09353614203</a>
+							</div>
+						</div>
+						<div class="social-icon">
+
+							<ul class="nav   d-flex justify-content-start mt-3">
+								<li class="nav-item"><a href="" class="nav-link "><i class="fab fa-telegram-plane">
+										</i></a></li>
+								<li class="nav-item"><a href="" class="nav-link "><i class="fab fa-facebook-f"> </i>
+									</a></li>
+								<li class="nav-item"><a href="" class="nav-link "><i class="fab fa-twitter"> </i> </a>
+								</li>
+								<li class="nav-item"><a href="" class="nav-link "><i class="fab fa-instagram"> </i> </a>
+								</li>
+								<li class="nav-item"><a href="" class="nav-link "><i class="fas fa-rss"> </i> </a></li>
+
+							</ul>
+
+							<p class="text-center">تهران ولیعصر جنب کوچه امامی خیابان حسینی پلاک 23</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+	</footer>
+
+	<!-- end footer -->
+
+
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+		integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+		</script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+		integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+		</script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+		integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+		</script>
+	<script src="https://kit.fontawesome.com/8b80eebbeb.js" crossorigin="anonymous"></script>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+		integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+		crossorigin="anonymous"></script>
+
+	<script src="assets/js/main.js"></script>
+</body>
+
+
+</html>
